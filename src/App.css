@@ -1,11 +1,114 @@
 .App {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  padding: none;
+
+}
+
+.family {
   width: 100%;
   height: 100%;
+  position: fixed;
+  z-index: 2;
 }
+
+.textbox {
+  position: absolute;
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  z-index: 3;
+  bottom: 0%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-bottom: 5%;
+  border: solid;
+  border-color: white;
+  display: flex;
+}
+
+.porifera {
+  position: fixed;
+  width: 20%;
+  height: auto;
+  z-index: 5;
+  left: 18%;
+  top: 14%;
+}
+
+.cnidaria {
+  position: fixed;
+  width: 20%;
+  height: auto;
+  z-index: 5;
+  left: 27%;
+  top: 14%;
+}
+
+.mollusca {
+  position: fixed;
+  width: 20%;
+  height: auto;
+  z-index: 5;
+  left: 36%;
+  top: 14%;
+}
+
+.annelida {
+  position: fixed;
+  width: 20%;
+  height: auto;
+  z-index: 5;
+  left: 49.5%;
+  top: 14%;
+}
+
+.arthropoda {
+  position: fixed;
+  width: 24%;
+  height: auto;
+  z-index: 5;
+  left: 62%;
+  top: 6%;
+}
+
+.echinodermata {
+  position: fixed;
+  width: 15%;
+  height: auto;
+  z-index: 5;
+  left: 72%;
+  top: 6%;
+}
+
+.chordata {
+  position: fixed;
+  width: 15%;
+  height: auto;
+  z-index: 5;
+  left: 78.5%;
+  top: 6%;
+}
+
+.button {
+  font-size: 12pt;
+  width: 40%;
+  height: 20vh;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.button:hover {cursor: pointer}

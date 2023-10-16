@@ -1,5 +1,7 @@
 import './App.css';
 import Background from './static/ocean_background.svg';
+import Family from './static/family.svg';
+import { useState } from 'react';
 
 function App() {
   /* Each metazoa will be a button that will toggle something like a menu that appears from the side and gives a description
@@ -9,9 +11,44 @@ function App() {
 
       Each menu components should use the same css file to make life easier. We can also have all the menu come from the same js file
       just that the component passes in props for things like animals in the family, features etc.. */
+  const poriferaDescription = "There are over 1,000 species of Porifera. Some notable features is that they have no true tissue no digestive or circulatory system. They're suspension feeders, and can be made out of glass or calcium carbonate";
+  const cnidariaDescription = "";
+  const molluscaDescription = "";
+  const annelidaDescription = "";
+  const arthropodaDescription = "";
+  const echinodermataDescription = "";
+  const chordataDescription = "";
+
+  const [currentDisplay, setCurrentDisplay] = useState("click on a phyla");
+
   return (
     <div className="App">
       <img className = "background" src = {Background} alt = "none"></img>
+      <img className = "family" src = {Family} alt = "none"></img>
+      <div className="porifera">
+        <button className = "button" onClick={() => setCurrentDisplay(poriferaDescription)}></button>
+      </div>
+      <div className="cnidaria">
+        <button className = "button" onClick={() => setCurrentDisplay(cnidariaDescription)}></button>
+      </div>
+      <div className="mollusca">
+        <button className = "button" onClick={() => setCurrentDisplay(molluscaDescription)}></button>
+      </div>
+      <div className="annelida">
+        <button className = "button" onClick={() => setCurrentDisplay(annelidaDescription)}></button>
+      </div>
+      <div className="arthropoda">
+        <button className = "button" onClick={() => setCurrentDisplay(arthropodaDescription)}></button>
+      </div>
+      <div className="echinodermata">
+        <button className = "button" onClick={() => setCurrentDisplay(echinodermataDescription)}></button>
+      </div>
+      <div className="chordata">
+        <button className = "button" onClick={() => setCurrentDisplay(chordataDescription)}></button>
+      </div>
+      <div className = "textbox">
+        <p>{currentDisplay}</p>
+      </div>
     </div>
   );
 }
