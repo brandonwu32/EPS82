@@ -12,12 +12,12 @@ function App() {
       Each menu components should use the same css file to make life easier. We can also have all the menu come from the same js file
       just that the component passes in props for things like animals in the family, features etc.. */
   const poriferaDescription = "There are over 1,000 species of Porifera. Some notable features is that they have no true tissue no digestive or circulatory system. They're suspension feeders, and can be made out of glass or calcium carbonate";
-  const cnidariaDescription = "";
-  const molluscaDescription = "";
-  const annelidaDescription = "";
-  const arthropodaDescription = "";
-  const echinodermataDescription = "";
-  const chordataDescription = "";
+  const cnidariaDescription = "This group is defined by stinging cells called cnidoblasts on tentaclesm, they have a single opening for their mouth and anus, radial symmetry, and eat zooplankton and small fish, some popular animals that belong to this family are fish eating anemone, orange cup coral, and strawberry anemones ";
+  const molluscaDescription = "Some features of Mollusca are a fleshy mantle, muscular foot, more developed nervous system, and beak like resping radula. ";
+  const annelidaDescription = "The animals in this family are segmented worms";
+  const arthropodaDescription = "Some features of arthropods are jointed appendages, segmented body, exoskeleton, greatest number of species, ";
+  const echinodermataDescription = "Echinodermata have radial symmetry, tube feet, and hydrostatic skeleton, ";
+  const chordataDescription = "Chordates possess: notochord, dorsal hollow nerve cord, pharyngeal gill slits and post anal tails.";
 
   const [currentDisplay, setCurrentDisplay] = useState("click on a phyla");
 

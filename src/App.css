@@ -38,6 +38,7 @@
   border: solid;
   border-color: white;
   display: flex;
+  background-color: rgba(128, 128, 128, 0.363);
 }
 
 .porifera {
