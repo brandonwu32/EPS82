@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/EPS82/static/css/main.c3bdf547.css",
+    "main.js": "/EPS82/static/js/main.07cb6496.js",
+    "static/js/787.cff098ed.chunk.js": "/EPS82/static/js/787.cff098ed.chunk.js",
+    "static/media/family.svg": "/EPS82/static/media/family.f0a2d7af0e41f8983f1b01a09122b729.svg",
+    "static/media/ocean_background.svg": "/EPS82/static/media/ocean_background.90bdc455bc5e8de8d63b6a95b1be48bb.svg",
+    "index.html": "/EPS82/index.html",
+    "main.c3bdf547.css.map": "/EPS82/static/css/main.c3bdf547.css.map",
+    "main.07cb6496.js.map": "/EPS82/static/js/main.07cb6496.js.map",
+    "787.cff098ed.chunk.js.map": "/EPS82/static/js/787.cff098ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3bdf547.css",
+    "static/js/main.07cb6496.js"
+  ]
+}
